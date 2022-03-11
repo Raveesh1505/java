@@ -1,0 +1,17 @@
+Practical 1
+
+Ques 1: Why is java considered dynamic?
+Ans 1: Java is considered dynamic because of Bytecode. The source code which is written on one platform, is converted into classfile and then it can be run anywhere. The classfile is loaded suring the runtime only and hence it is called dynamically typed language.
+
+Ques 2: What is Java Virtual Machine and how it is considered in context of Java's platform independent feature?
+And 2: Java virtual machine is a package that provides specification to run the java bytecode on any platform. Java Virtual Machine can be downloaded on any platform and can run any java bytecode file.
+
+Ques 3: List two Java IDEs. List some keywords.
+And 3: Java IDE : IntelliJ IDEA and BlueJ. Keywords : println, System, class, public, private.
+
+Ques 4: Consider the following class: 
+    public class IdentifyMyParts { 
+    public static int x = 7;  
+    public int y = 3;  
+} 
+Ans 4: a) x = 7. b) y = 3
