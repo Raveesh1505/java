@@ -15,3 +15,49 @@ Ques 4: Consider the following class:
     public int y = 3;  
 } 
 Ans 4: a) x = 7. b) y = 3
+
+
+if else
+switch
+do while, start
+for ( ; ; )
+while (true)
+In case a condition is not met and we have to bring the programme back to the start of the loop, then we use continue statment.
+1 bit
+for loop
+
+Ans 1: 
+a) Second string
+Third string
+
+b) Second string is printed because it falls under the first if condition of aNumber being greater than 0 and also under the else control statement of aNumber not being 0. Now third string is printed because it does not fall under any control statement.
+
+c) if (aNumber > 0){
+    if (aNumber == 0){
+        System.out.println("First String");
+    }
+    else{
+        System.out.println("Second String");
+    }
+}
+System.out.println("Third string");
+
+Ans 2: Semi-colon should be used instead of comma. Correct : (int k=2; k <= 12; k++)
+
+Ans 3: A block of for loop consists of 3 statements. The first statement initialises the variable which is being used in the loop. The second statement defines the end point of the loop. The third statement of the block defines increament ot decreament of the reference variable.
+
+Ans 4: num = 6
+
+
+-===--===--===--===--===--===
+
+Ans 1: No, we cannot pass negative number as an array size.
+Ans 2: No, we cannot change the size of an array after declaration.
+Ans 3: An array without any name is called an anonymous array. It may be created and used at any particular instance.
+Ans 4: There is no difference. Both of them are used to declare integer type array.
+Ans 5: A 2 dimentional array with unequal row size (sifferent number of elements in every row) is called a jagged array. Example: An array with 2 elements in first row but 3 in it's second row.
+
+Flipped
+
+Ans 1: d) int arr[] = int [5] new
+Ans 2: 
