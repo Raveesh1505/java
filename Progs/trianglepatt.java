@@ -1,4 +1,4 @@
-public class triangle {
+public class trianglepatt {
     public static void main(String[] args){
         int i, j;
         for (i=0; i<6; i++){

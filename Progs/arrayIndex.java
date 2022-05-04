@@ -18,9 +18,6 @@ public class arrayIndex {
             if (myArray[i] == searchElement){
                 System.out.println("\nElement : " + myArray[i] + "\nIndex : " + i);
             }
-            else{
-                System.out.println("\nElement not found\nIndex : -1");
-            }
         }
         sc.close();
     }
