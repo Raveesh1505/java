@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 class distance {
-    
     double x, y;
 
     distance(double X, double Y){
@@ -22,7 +21,7 @@ class distance {
     }
 }
 
-class test{
+class testDistance{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x1, x2, y1, y2;

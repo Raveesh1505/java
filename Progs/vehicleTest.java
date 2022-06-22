@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 class vehicle {
     String displayOb = "vehicle";
-
     public void display(){
         System.out.println("This is a " + this.displayOb);
     }

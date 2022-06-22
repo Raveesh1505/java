@@ -33,7 +33,7 @@ class complex {
 }
 
 
-class test{
+class testComplex{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int r1, r2, i1, i2;

@@ -1,63 +1,37 @@
 class Shape{
     String shape;
-
     public void printShape(){
         System.out.println("This is " + this.shape + " shape.");
     }
 }
-
 
 class Rectangle extends Shape{
     Rectangle(){
-        
+        this.shape = "Rectangle";
     }
-    public void printShape(){
-        shape = "Rectangle";
-        System.out.println("This is " + this.shape + " shape.");
-    }    
 }
-
 
 class Circle extends Shape{
     Circle(){
-       
-    }
-    public void printShape(){
-        shape = "Circle";
-        System.out.println("This is " + this.shape + " shape.");
+        this.shape = "Circle";
     }
 }
-
 
 class square extends Rectangle{
     square(){
-        
+        this.shape = "Sqaure";
     }
-  //  Rectangle ob = new Rectangle();
-    
-    public void printShape(){
-        shape = "square";
-        System.out.println("This is " + this.shape + " shape.");
+    Rectangle ob = new Rectangle();
+
+    public void squareIsRectanlge(){
+        System.out.println(this.shape + " is a " + ob.shape);
     }
-
-    public String TimeAdd(){
-        int hours = 120, min = 130;
-
-        return hours + ":" + min;
-    }
-
 }
-
 
 public class shapeInheritance{
     public static void main(String[] args) {
-        Rectangle ob = new square();
+        square ob = new square();
         ob.printShape();
-        ob = new Rectangle();
-        ob.printShape();
-        ob= new Shape();
-        ob.printShape();
-
-        //ob.squareIsRectanlge();
+        ob.squareIsRectanlge();
     }
 }
